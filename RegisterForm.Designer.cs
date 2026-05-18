@@ -46,7 +46,7 @@
             // 
             // txtFullName
             // 
-            this.txtFullName.Location = new System.Drawing.Point(1394, 302);
+            this.txtFullName.Location = new System.Drawing.Point(825, 143);
             this.txtFullName.Margin = new System.Windows.Forms.Padding(2);
             this.txtFullName.Multiline = true;
             this.txtFullName.Name = "txtFullName";
@@ -58,7 +58,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1149, 302);
+            this.label1.Location = new System.Drawing.Point(593, 145);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(209, 47);
@@ -69,7 +69,7 @@
             // 
             this.txtEmail.AutoSize = true;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(1230, 409);
+            this.txtEmail.Location = new System.Drawing.Point(678, 221);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(124, 47);
@@ -78,7 +78,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(1394, 506);
+            this.txtPhone.Location = new System.Drawing.Point(825, 296);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhone.Multiline = true;
             this.txtPhone.Name = "txtPhone";
@@ -89,7 +89,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1213, 516);
+            this.label2.Location = new System.Drawing.Point(663, 296);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 47);
@@ -100,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1256, 699);
+            this.label3.Location = new System.Drawing.Point(693, 456);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 47);
@@ -109,7 +109,7 @@
             // 
             // dtpDOB
             // 
-            this.dtpDOB.Location = new System.Drawing.Point(1394, 699);
+            this.dtpDOB.Location = new System.Drawing.Point(825, 472);
             this.dtpDOB.Margin = new System.Windows.Forms.Padding(2);
             this.dtpDOB.Name = "dtpDOB";
             this.dtpDOB.Size = new System.Drawing.Size(164, 26);
@@ -118,7 +118,7 @@
             // 
             // txtPin
             // 
-            this.txtPin.Location = new System.Drawing.Point(1394, 777);
+            this.txtPin.Location = new System.Drawing.Point(825, 538);
             this.txtPin.Margin = new System.Windows.Forms.Padding(2);
             this.txtPin.Multiline = true;
             this.txtPin.Name = "txtPin";
@@ -129,7 +129,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1276, 791);
+            this.label4.Location = new System.Drawing.Point(714, 538);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 47);
@@ -139,7 +139,7 @@
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(1565, 860);
+            this.btnRegister.Location = new System.Drawing.Point(1039, 624);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(149, 60);
@@ -150,7 +150,7 @@
             // 
             // txtAccountNumber
             // 
-            this.txtAccountNumber.Location = new System.Drawing.Point(1394, 613);
+            this.txtAccountNumber.Location = new System.Drawing.Point(825, 378);
             this.txtAccountNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtAccountNumber.Multiline = true;
             this.txtAccountNumber.Name = "txtAccountNumber";
@@ -161,7 +161,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1047, 613);
+            this.label6.Location = new System.Drawing.Point(475, 378);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(327, 47);
@@ -170,7 +170,7 @@
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(1394, 409);
+            this.txtMail.Location = new System.Drawing.Point(825, 221);
             this.txtMail.Margin = new System.Windows.Forms.Padding(2);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
@@ -179,7 +179,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1414, 870);
+            this.button1.Location = new System.Drawing.Point(889, 634);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 50);
@@ -194,7 +194,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ATMProject.Properties.Resources.ChatGPT_Image_May_16__2026__03_12_40_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1883, 805);
+            this.ClientSize = new System.Drawing.Size(1225, 782);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtMail);
             this.Controls.Add(this.txtAccountNumber);
