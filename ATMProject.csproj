@@ -118,11 +118,23 @@
     <Compile Include="EditProfileControl.Designer.cs">
       <DependentUpon>EditProfileControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeLoginForm.Designer.cs">
+      <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FastCashControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="FastCashControl.Designer.cs">
       <DependentUpon>FastCashControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDashboardForm.Designer.cs">
+      <DependentUpon>EmployeeDashboardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Homepage.cs">
       <SubType>Form</SubType>
@@ -203,6 +215,12 @@
     <Compile Include="UserProfileControl.Designer.cs">
       <DependentUpon>UserProfileControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewCustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomersForm.Designer.cs">
+      <DependentUpon>ViewCustomersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WithdrawControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -244,6 +262,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditProfileControl.resx">
       <DependentUpon>EditProfileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDashboardForm.resx">
+      <DependentUpon>EmployeeDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeLoginForm.resx">
+      <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FastCashControl.resx">
       <DependentUpon>FastCashControl.cs</DependentUpon>
@@ -288,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserProfileControl.resx">
       <DependentUpon>UserProfileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomersForm.resx">
+      <DependentUpon>ViewCustomersForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WithdrawControl.resx">
       <DependentUpon>WithdrawControl.cs</DependentUpon>
@@ -406,6 +433,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ATM Management System 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_7omt9m7omt9m7omt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %283%29.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
