@@ -195,5 +195,19 @@ namespace ATMProject
             MessageBox.Show("User info updated successfully.");
             LoadUsers();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+          
+            AdminLoginForm loginForm = new AdminLoginForm();
+            loginForm.Show();
+        }
+
+        private void btnLogout1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
