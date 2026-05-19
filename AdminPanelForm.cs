@@ -18,7 +18,8 @@ namespace ATMProject
         public AdminPanelForm()
         {
             InitializeComponent();
-
+            dataGridUsers.DataError += (s, ev) => { ev.ThrowException = false; };
+            dataGridLoans.DataError += (s, ev) => { ev.ThrowException = false; };
             LoadUsers();
             LoadLoanRequests();
 
@@ -199,8 +200,6 @@ namespace ATMProject
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-          
             AdminLoginForm loginForm = new AdminLoginForm();
             loginForm.Show();
         }

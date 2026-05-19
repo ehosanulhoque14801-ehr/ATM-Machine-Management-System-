@@ -35,6 +35,8 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnAdminLogin = new System.Windows.Forms.Button();
+            this.btnEmployee = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,14 +108,34 @@
             // 
             // btnAdminLogin
             // 
-            this.btnAdminLogin.Location = new System.Drawing.Point(1723, 916);
+            this.btnAdminLogin.Location = new System.Drawing.Point(1529, 587);
             this.btnAdminLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdminLogin.Name = "btnAdminLogin";
-            this.btnAdminLogin.Size = new System.Drawing.Size(119, 51);
+            this.btnAdminLogin.Size = new System.Drawing.Size(119, 63);
             this.btnAdminLogin.TabIndex = 6;
             this.btnAdminLogin.Text = "ADMIN";
             this.btnAdminLogin.UseVisualStyleBackColor = true;
             this.btnAdminLogin.Click += new System.EventHandler(this.btnAdminLogin_Click);
+            // 
+            // btnEmployee
+            // 
+            this.btnEmployee.Location = new System.Drawing.Point(1132, 587);
+            this.btnEmployee.Name = "btnEmployee";
+            this.btnEmployee.Size = new System.Drawing.Size(115, 63);
+            this.btnEmployee.TabIndex = 7;
+            this.btnEmployee.Text = "EMPLOYEE";
+            this.btnEmployee.UseVisualStyleBackColor = true;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(1334, 662);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(89, 40);
+            this.btnBack.TabIndex = 8;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // LoginForm
             // 
@@ -122,7 +144,9 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::ATMProject.Properties.Resources.loginpage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1574, 875);
+            this.ClientSize = new System.Drawing.Size(1603, 875);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnEmployee);
             this.Controls.Add(this.btnAdminLogin);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogin);
@@ -150,6 +174,8 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnAdminLogin;
+        private System.Windows.Forms.Button btnEmployee;
+        private System.Windows.Forms.Button btnBack;
     }
 }
 

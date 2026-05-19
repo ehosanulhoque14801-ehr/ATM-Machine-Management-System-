@@ -115,5 +115,19 @@ namespace ATMProject
             adminLogin.Show();
             this.Hide();
         }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            EmployeeLoginForm emp = new EmployeeLoginForm();
+            emp.Show();
+            this.Hide();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Homepage home = new Homepage();
+            home.Show();
+            this.Hide();
+        }
     }
 }

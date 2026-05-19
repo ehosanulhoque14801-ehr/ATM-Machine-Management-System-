@@ -47,5 +47,35 @@ namespace ATMProject
         {
 
         }
+
+        private void btnCustomerSupport_Click(object sender, EventArgs e)
+        {
+            CustomerSupportForm frm = new CustomerSupportForm();
+            frm.Show();
+        }
+
+        private void btnViewLoginHistory_Click(object sender, EventArgs e)
+        {
+            EmployeeTransactionsForm frm = new EmployeeTransactionsForm();
+            frm.Show();
+        }
+
+        private void btnViewTransactions_Click(object sender, EventArgs e)
+        {
+            EmployeeViewTransactionsForm frm = new EmployeeViewTransactionsForm();
+            frm.Show();
+        }
+
+        private void btnViewProfile_Click(object sender, EventArgs e)
+        {
+            EmployeeProfileForm frm = new EmployeeProfileForm();
+            frm.Show();
+        }
+
+        private void btnUpdateProfile_Click(object sender, EventArgs e)
+        {
+            EmployeeProfileForm frm = new EmployeeProfileForm();
+            frm.Show();
+        }
     }
 }

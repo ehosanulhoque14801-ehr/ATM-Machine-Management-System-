@@ -240,7 +240,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 570);
+            this.btnBack.Location = new System.Drawing.Point(12, 48);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 18;
@@ -250,7 +250,7 @@
             // 
             // btnLogout1
             // 
-            this.btnLogout1.Location = new System.Drawing.Point(93, 570);
+            this.btnLogout1.Location = new System.Drawing.Point(12, 77);
             this.btnLogout1.Name = "btnLogout1";
             this.btnLogout1.Size = new System.Drawing.Size(75, 23);
             this.btnLogout1.TabIndex = 19;
@@ -264,7 +264,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ATMProject.Properties.Resources.admin1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1148, 626);
+            this.ClientSize = new System.Drawing.Size(710, 384);
             this.Controls.Add(this.btnLogout1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label3);
